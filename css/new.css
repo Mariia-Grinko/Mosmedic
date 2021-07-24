@@ -1,0 +1,352 @@
+.main-serv-carl-box .slick-list{
+	margin:0 35px;	
+}
+.slick-slide img {
+	max-width: 100%;
+}
+.main-serv-carl-box .slick-arrow{
+	width:28px;
+	height:28px;
+	z-index: 1;
+}
+.main-serv-carl-box .slick-slide{
+	margin:0 5px;
+}
+.main-serv-carl-box .slick-arrow:before{
+	content: '';
+	position: absolute;
+	width:28px;
+	height:28px;
+	left: 0;
+	top:0;
+}
+.main-serv-carl-box .slick-prev:before{
+	background: url(//demo.chatmanager.ru/mosmedic/serv/car-left.png) no-repeat 0 0;
+}
+.main-serv-carl-box .slick-next:before{
+	background: url(//demo.chatmanager.ru/mosmedic/serv/car-right.png) no-repeat 0 0;
+}
+.main-serv-carl-box .slick-prev{
+	left:0;
+}
+.main-serv-carl-box .slick-next{
+	right:0;
+}
+
+/*рейтинг*/
+.serv-users-rating{
+	display: inline-block;
+	width:110px;
+	height: 20px;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.serv-users-rating.stars-rating-1{
+	background: url(//demo.chatmanager.ru/mosmedic/serv/rating-1.png) no-repeat 0 0;
+}
+.serv-users-rating.stars-rating-2{
+	background: url(//demo.chatmanager.ru/mosmedic/serv/rating-2.png) no-repeat 0 0;
+}
+.serv-users-rating.stars-rating-3{
+	background: url(//demo.chatmanager.ru/mosmedic/serv/rating-3.png) no-repeat 0 0;
+}
+.serv-users-rating.stars-rating-4{
+	background: url(//demo.chatmanager.ru/mosmedic/serv/rating-4.png) no-repeat 0 0;
+}
+.serv-users-rating.stars-rating-5{
+	background: url(//demo.chatmanager.ru/mosmedic/serv/rating-5.png) no-repeat 0 0;
+}
+.serv-users-small-rating{
+	display: inline-block;
+	width:80px;
+	height: 16px;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.serv-users-small-rating.stars-rating-1{
+	background: url(//demo.chatmanager.ru/mosmedic/serv/small-rating-1.png) no-repeat 0 0;
+}
+.serv-users-small-rating.stars-rating-2{
+	background: url(//demo.chatmanager.ru/mosmedic/serv/small-rating-2.png) no-repeat 0 0;
+}
+.serv-users-small-rating.stars-rating-3{
+	background: url(//demo.chatmanager.ru/mosmedic/serv/small-rating-3.png) no-repeat 0 0;
+}
+.serv-users-small-rating.stars-rating-4{
+	background: url(//demo.chatmanager.ru/mosmedic/serv/small-rating-4.png) no-repeat 0 0;
+}
+.serv-users-small-rating.stars-rating-5{
+	background: url(//demo.chatmanager.ru/mosmedic/serv/small-rating-5.png) no-repeat 0 0;
+}
+/*/рейтинг*/
+.ser-rating-fig{
+	font-size: 25px;
+}
+.ser-rating-fig span{
+	color:#006476;
+}
+.serv-users-rating-box{
+	margin-bottom: 10px;
+}
+.serv-users-rating-box span{
+	display: inline-block;
+	vertical-align: middle;
+	color:#7E7E7E;
+}
+.serv-rating-btn,
+.serv-testims-btn,
+.serv-testims-btn{
+	margin-left: 10px;
+}
+.serv-rating-btn:first-child,
+.serv-testims-btn:first-child,
+.serv-testims-btn:first-child{
+	margin-left: 0;
+}
+.serv-menu-box{
+	margin: 20px 0;
+}
+.serv-menu-box ul{
+	list-style: none;
+	padding: 0;
+}
+.serv-menu-box ul li{
+	list-style: none;
+	float: left;
+	margin-left:18px;
+}
+.serv-menu-box ul li:first-child{
+	margin-left:0;
+}
+.serv-menu-box ul li a{
+	display: block;
+	color: #006476;
+}
+.serv-menu-box ul li a:hover,
+.serv-menu-box ul li a:focus,
+.serv-menu-box ul li.active a {
+	text-decoration: none;
+}
+.serv-main-descr{
+	padding: 15px;
+    background: #DFF9FE;
+    color: #265C66;
+    margin-bottom: 20px;
+    border: 1px solid #B7E2E9;
+}
+.ser-main-box-details{
+	padding: 15px 0;
+    border: 1px solid #E9D49A;
+}
+.ser-main-box-details .serv-price-box {
+	color: #0C8B9C;
+	font-size: 16px;
+}
+.ser-main-box-details .serv-price-cell {
+	color: #8A8A8A;
+}
+.ser-main-box-details .serv-price-cell:after {
+content:'';
+display: block;
+margin:15px 50px 0;
+height:2px;
+background: #00A5C2;
+}
+.ser-main-box-details .serv-price-cell .serv-price {
+	font-size: 20px;
+	color:#333;
+	margin-bottom: 5px;
+	display: block;
+}
+.main-serv-specims-img-box{
+	height: 100px;
+	margin-bottom:10px;
+}
+.m-s-specims-title{
+	font-size: 16px;
+	display: block;
+	color:#00A5C2;
+	margin-bottom:5px;
+}
+.m-s-specims-price{
+font-size: 16px;
+font-weight: 700;
+}
+.serv-testims-box{
+	border:1px solid  #D7D7D7;
+	padding:15px;
+}
+
+.serv-testims-name{
+	font-size: 18px;
+	font-weight: 700;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.serv-testims-rating{
+margin-bottom: 20px;
+color: #7E7E7E;
+}
+.serv-testims-rating span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.testim-user-fig-rate{
+	margin-left: 5px;
+	font-size: 16px;
+	color: #006476;
+}
+.serv-testims-box p {
+	font-style: italic;
+	margin-bottom: 25px;
+	color: #5C5C5C;
+}
+.main-serv-doctors-img-box{
+	overflow: hidden;
+	height: 180px;
+	margin:0 0 10px;
+}
+.main-serv-doctors-name{
+	font-size:16px;
+	color: #006476;
+	display:block;
+	margin:0 0 5px;
+}
+.main-serv-doctors-descr {
+	font-size: 12px;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+.main-serv-doctors-rating .m-s-rating{
+	display: inline-block;
+	vertical-align: middle;
+	color: #7E7E7E;
+}
+.doctors-testim-count span{
+	color:#006476;
+}
+.main-serv-subscr-block{
+	padding:15px 0;
+	background: #00A5C2;
+	color: #FFF;
+	font-size: 16px;
+}
+
+.main-serv-subscr-block .phone{
+	font-size: 22px;
+	margin:0 25px 0 10px;
+	font-weight: 700;
+}
+.main-serv-subscr-block span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.main-serv-subscr-btn{
+	border:none;
+	border-radius: 0;
+	padding:10px 20px;
+	vertical-align: middle;
+}
+.serv-qa-container{
+	border:1px solid  #D7D7D7;
+	padding:15px;
+}
+.serv-qa-item{
+	margin-bottom: 20px;
+}
+.serv-qa-title{
+	display: block;
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.serv-qa-item p{
+	font-style: italic;
+	margin-left: 20px;
+	line-height: 1.65;
+	color:#666;
+}
+.serv-qa-answer-title{
+	color: #006476;
+}
+.main-serv-action-box{
+	padding:15px;
+	border:1px solid #00A5C2;
+}
+.serv-date-price-box{
+	font-size: 15px;
+	color:#006476;
+}
+.serv-act-old-price{
+		font-size: 15px;
+		color:gray;
+		text-decoration: line-through;
+}
+.serv-act-new-price{
+	font-size: 20px;
+	color:#C00;
+}
+.serv-action-title{
+	color: #00A5C2;
+	display: block;
+	margin:10px 0;
+	font-size: 30px;
+	font-weight: 700;
+}
+.serv-action-price-box{
+	padding-left: 0;
+}
+.serv-action-date-box{
+	padding:7px 0 0 15px;
+	color: #006476;
+	font-weight: bold;
+}
+
+.main-serv-works-img-box{
+	overflow: hidden;
+	height:100px;
+	margin-bottom:10px;
+}
+.main-serv-works-title{
+	font-size: 16px;
+	color: #636363;
+}
+.serv-add-testim-form{
+	padding:15px;
+	border:2px solid #DDD;
+}
+.serv-details-table{
+	display: table;
+	margin:0;
+	width:100%;
+}
+.serv-details-cell {
+	display: table-cell;
+	float: none;
+	vertical-align: top;
+}
+.serv-details-price-cell{
+	vertical-align: middle;
+}
+.rate-action-box{
+	display: inline-block;
+	font-size: 0;
+	margin-left: 5px;
+	vertical-align: middle;
+	cursor:pointer;
+}
+.rate-star {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: 0px 1px;
+    background: url("//demo.chatmanager.ru/mosmedic/serv/i-nostar.png") no-repeat scroll 0px 0px transparent;
+}
+.rate-active {
+	background: url("//demo.chatmanager.ru/mosmedic/serv/i-star.png") no-repeat scroll 0px 0px transparent;
+}
+.ser-addrate-box-name{
+	display: inline-block;
+	vertical-align: middle;
+}
