@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/OpenSans-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+.implant-wrapper * {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.button-default {
+    padding: 7px 44px;
+    background: #00A5C2;
+    border: 3px solid #00A5C2;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-default:hover {
+    cursor: pointer;
+    background: #00779C;
+    border: 3px solid #00779C;
+}
+
+.button-blank {
+    padding: 7px 44px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #00A5C2;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-blank:hover {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #00779C;
+}
+
+.implant-banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    margin-bottom: 80px;
+}
+
+.implant-banner h2 {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 57px;
+    color: #333333;
+}
+
+.implant-banner p {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333333;
+}
+
+.implant-banner span {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #333333;
+}
+
+.implant-banner-top {
+    margin-left: 8.6%;
+    margin-top: 90px;
+    width: 50%;
+}
+
+.implant-banner-top p {
+    margin-top: 30px;
+}
+
+.implant-banner button {
+    margin-top: 20px;
+}
+
+.implant-wrapper h3 {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.implant-inner-block {
+    margin: auto 8.5%
+}
+
+.implant-banner-bottom {
+    margin-left: 8.6%;
+    margin-top: 70px;
+    width: 50%;
+}
+
+.implant-banner-bottom form {
+    width: 240px;
+    margin-bottom: 10px;
+}
