@@ -1,146 +1,232 @@
-@font-face {
-    font-family: 'OpenSans';
-    src: url(../fonts/OpenSans-Light.ttf);
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'OpenSans';
-    src: url(../fonts/OpenSans-Regular.ttf);
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'OpenSans';
-    src: url(../fonts/OpenSans-SemiBold.ttf);
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'OpenSans';
-    src: url(../fonts/OpenSans-Bold.ttf);
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'OpenSans';
-    src: url(../fonts/OpenSans-ExtraBold.ttf);
-    font-weight: 800;
-    font-style: normal;
-}
-
-.implant-wrapper * {
-    box-sizing: border-box;
-    font-size: 16px;
-}
-
-.button-default {
-    padding: 7px 44px;
-    background: #00A5C2;
-    border: 3px solid #00A5C2;
-    box-sizing: border-box;
-    border-radius: 3px;
-    color: #FFFFFF;
-    cursor: pointer;
-    text-align: center;
-}
-
-.button-default:hover {
-    cursor: pointer;
-    background: #00779C;
-    border: 3px solid #00779C;
-}
-
-.button-blank {
-    padding: 7px 44px;
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #00A5C2;
-    cursor: pointer;
-    text-align: center;
-}
-
-.button-blank:hover {
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #00779C;
-}
-
-.implant-banner {
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 500px;
-    margin-bottom: 80px;
-}
-
-.implant-banner h2 {
-    font-family: "OpenSans";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 42px;
-    line-height: 57px;
-    color: #333333;
-}
-
-.implant-banner p {
-    font-family: "OpenSans";
-    font-style: normal;
-    font-weight: normal;
-    margin-bottom: 35px;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333333;
-}
-
-.implant-banner span {
-    font-family: "OpenSans";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 150%;
-    color: #333333;
-}
-
-.implant-banner-top {
-    margin-left: 8.6%;
-    margin-top: 90px;
-    width: 50%;
-}
-
-.implant-banner-top p {
-    margin-top: 30px;
-}
-
-.implant-banner button {
-    margin-top: 20px;
-}
-
-.implant-wrapper h3 {
-    font-family: "OpenSans";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 38px;
-    text-align: center;
-}
-
-.implant-inner-block {
-    margin: auto 8.5%
-}
-
-.implant-banner-bottom {
-    margin-left: 8.6%;
-    margin-top: 70px;
-    width: 50%;
-}
-
-.implant-banner-bottom form {
-    width: 240px;
-    margin-bottom: 10px;
-}
+    @font-face {
+        font-family: 'OpenSans';
+        src: url(../fonts/OpenSans-Light.ttf);
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'OpenSans';
+        src: url(../fonts/OpenSans-Regular.ttf);
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'OpenSans';
+        src: url(../fonts/OpenSans-SemiBold.ttf);
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'OpenSans';
+        src: url(../fonts/OpenSans-Bold.ttf);
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'OpenSans';
+        src: url(../fonts/OpenSans-ExtraBold.ttf);
+        font-weight: 800;
+        font-style: normal;
+    }
+    
+    .implant-wrapper * {
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+    
+    .h3 {
+        margin-bottom: 20px;
+    }
+    
+    .button-default {
+        padding: 7px 44px;
+        background: #00A5C2;
+        border: 3px solid #00A5C2;
+        box-sizing: border-box;
+        border-radius: 3px;
+        color: #FFFFFF;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .button-default:hover {
+        cursor: pointer;
+        background: #00779C;
+        border: 3px solid #00779C;
+    }
+    
+    .button-blank {
+        padding: 7px 44px;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #00A5C2;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .button-blank:hover {
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #00779C;
+    }
+    
+    .implant-banner {
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 500px;
+        margin-bottom: 80px;
+    }
+    
+    .implant-banner h2 {
+        font-family: "OpenSans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 57px;
+        color: #333333;
+    }
+    
+    .implant-banner p {
+        font-family: "OpenSans";
+        font-style: normal;
+        font-weight: normal;
+        margin-bottom: 35px;
+        font-size: 18px;
+        line-height: 150%;
+        color: #333333;
+    }
+    
+    .implant-banner span {
+        font-family: "OpenSans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        color: #333333;
+    }
+    
+    .implant-banner-top {
+        margin-left: 8.6%;
+        margin-top: 90px;
+        width: 50%;
+    }
+    
+    .implant-banner-top p {
+        margin-top: 30px;
+    }
+    
+    .implant-banner button {
+        margin-top: 20px;
+    }
+    
+    .implant-wrapper h3 {
+        font-family: "OpenSans";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+    }
+    
+    .implant-inner-block {
+        padding: 0 8.5%;
+    }
+    
+    .imlant-color-block {
+        background-color: #E9F4FF;
+        padding: 30px 8.5%;
+    }
+    
+    .implant-price {
+        position: relative;
+        padding-left: 0;
+    }
+    
+    .implant-price-element {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding-left: 8.5%;
+        position: relative;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        font-weight: 600;
+    }
+    
+    .implant-price::before {
+        content: "";
+        height: 1px;
+        width: 100%;
+        background-color: #D4D4D4;
+        display: block;
+        position: absolute;
+    }
+    
+    .implant-price-element::after {
+        content: "";
+        height: 1px;
+        width: 100%;
+        background-color: #D4D4D4;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .implant-price-element-parent {
+        flex-direction: column;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .implant-price-element>ul>.implant-price-element>.implant-price-name {
+        font-weight: normal;
+        color: #4D4D4D;
+    }
+    
+    .implant-price-element-parent>.implant-price-name {
+        padding-left: 8.5%;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        font-weight: bold;
+        color: #00779C;
+    }
+    
+    .implant-price-price {
+        color: #00779C;
+    }
+    
+    .implant-banner-bottom {
+        margin-left: 8.6%;
+        margin-top: 70px;
+        width: 50%;
+    }
+    
+    .implant-banner-bottom form {
+        width: 240px;
+        margin-bottom: 10px;
+    }
+    
+    .implant-wrapper .slick-arrow:before {
+        content: '';
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 0;
+        top: 0;
+    }
+    
+    .implant-wrapper .slick-prev:before {
+        background: url(../picture/car-left.png) no-repeat 0 0;
+    }
+    
+    .implant-wrapper .slick-next:before {
+        background: url(../picture/car-right.png) no-repeat 0 0;
+    }

@@ -7,9 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Имплантация</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/new.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-v1.11.3.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -44,23 +49,56 @@
             </div>
         </section>
         <section class="row">
-            <h3>Прайс на имплантацию зубов</h3>
-            <ul>
-                <li></li>
-                <li>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <div class="col-sm-12">
+                <h3>Прайс на имплантацию зубов</h3>
+                <ul class="implant-price">
+                    <li class="implant-price-element">
+                        <div class="implant-price-name">название </div>
+                        <div class="implant-price-price">цена</div>
+                    </li>
+                    <li class="implant-price-element implant-price-element-parent">
+                        <div class="implant-price-name">название</div>
+                        <ul class="implant-price">
+                            <li class="implant-price-element">
+                                <div class="implant-price-name">название</div>
+                                <div class="implant-price-price">цена</div>
+                            </li>
+                            <li class="implant-price-element">
+                                <div class="implant-price-name">название</div>
+                                <div class="implant-price-price">цена</div>
+                            </li>
+                            <li class="implant-price-element">
+                                <div class="implant-price-name">название</div>
+                                <div class="implant-price-price">цена</div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="implant-price-element">
+                        <div class="implant-price-name">название</div>
+                        <div class="implant-price-price">цена</div>
+                    </li>
+                    <li class="implant-price-element">
+                        <div class="implant-price-name">название</div>
+                        <div class="implant-price-price">цена</div>
+                    </li>
+                    <li class="implant-price-element">
+                        <div class="implant-price-name">название</div>
+                        <div class="implant-price-price">цена</div>
+                    </li>
+                    <li class="implant-price-element">
+                        <div class="implant-price-name">название</div>
+                        <div class="implant-price-price">цена</div>
+                    </li>
+                    <li class="implant-price-element">
+                        <div class="implant-price-name">название</div>
+                        <div class="implant-price-price">цена</div>
+                    </li>
+                    <li class="implant-price-element">
+                        <div class="implant-price-name">название</div>
+                        <div class="implant-price-price">цена</div>
+                    </li>
+                </ul>
+            </div>
             <button class="button-default">Записаться на приём</button>
         </section>
         <section class="row">
@@ -77,11 +115,13 @@
                     <li></li>
                     <li></li>
                 </ul>
-                <div class="implant-inner-block">
-                    <p>Многих отпугивает от процедуры имплантации зубов цена. Так как услуга комплексная, то на ее стоимость влияет множество факторов: количество имплантатов, способ лечения и необходимость проведения дополнительных процедур.<br> Ориентироваться
-                        только на ценовую политику стоматологии не стоит. Имплантация зубов в Москве распространенная процедура и оценивать центр следует по многим критериям. Выбирая клинику имплантологии в Москве, смотрите на качество сервиса и репутацию
-                        центра. Уточните у специалистов, из чего складывается цена на услугу.<br> Имплантация зубов дешево и качественно гарантирована в стоматологии «Мир Здоровья». В нашей клинике работают опытные врачи, и используется имплантаты только
-                        проверенных производителей.
+                <div class="implant-inner-block imlant-color-block ">
+                    <p>Многих отпугивает от процедуры имплантации зубов цена. Так как услуга комплексная, то на ее стоимость влияет множество факторов: количество имплантатов, способ лечения и необходимость проведения дополнительных процедур.</p>
+                    <br>
+                    <p>Ориентироваться только на ценовую политику стоматологии не стоит. Имплантация зубов в Москве распространенная процедура и оценивать центр следует по многим критериям. Выбирая клинику имплантологии в Москве, смотрите на качество сервиса
+                        и репутацию центра. Уточните у специалистов, из чего складывается цена на услугу.</p>
+                    <br>
+                    <p> Имплантация зубов дешево и качественно гарантирована в стоматологии «Мир Здоровья». В нашей клинике работают опытные врачи, и используется имплантаты только проверенных производителей.
                     </p>
                 </div>
             </div>
@@ -90,37 +130,42 @@
             <div class="col-sm-12">
                 <h3>Противопоказания к процедуре</h3>
                 <div class="implant-inner-block">
-                    <p>Поскольку имплантация является хирургическим методом лечения, то существует ряд противопоказаний. Для их выявления перед операцией пациент проходит тщательную диагностику и обследование. К непреодолимым противопоказаниям относятся:
-                        <ul>
-                            <li>сахарный диабет;</li>
-                            <li>туберкулез;</li>
-                            <li>несвертываемость крови;</li>
-                            <li>заболевания ЦНС;</li>
-                            <li>наличие злокачественных опухолей;</li>
-                            <li>сердечные заболевания;</li>
-                            <li>непереносимость обезболивающих средств.</li>
-                        </ul>
-                        Кроме того имплантация противопоказана детям до 18 лет и беременным женщинам. Процедура проводится после удаление всех существующих проблем в полости рта – лечения кариеса и воспаления десен. Сделать имплантацию зубов дешево и качественно в Москве можно
-                        в центре «Мир Здоровья». Мы вернем Вам радость общения, здоровье и красоту улыбки.
+                    <p>Поскольку имплантация является хирургическим методом лечения, то существует ряд противопоказаний. Для их выявления перед операцией пациент проходит тщательную диагностику и обследование. К непреодолимым противопоказаниям относятся:</p>
+                    <br>
+                    <ul>
+                        <li>сахарный диабет;</li>
+                        <li>туберкулез;</li>
+                        <li>несвертываемость крови;</li>
+                        <li>заболевания ЦНС;</li>
+                        <li>наличие злокачественных опухолей;</li>
+                        <li>сердечные заболевания;</li>
+                        <li>непереносимость обезболивающих средств.</li>
+                    </ul>
+                    <br>
+                    <p>Кроме того имплантация противопоказана детям до 18 лет и беременным женщинам. Процедура проводится после удаление всех существующих проблем в полости рта – лечения кариеса и воспаления десен.</p>
+                    <br>
+                    <p> Сделать имплантацию зубов дешево и качественно в Москве можно в центре «Мир Здоровья». Мы вернем Вам радость общения, здоровье и красоту улыбки.
                     </p>
                 </div>
             </div>
         </section>
         <section class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12 imlant-color-block ">
                 <h3>Большой информационный текст по теме имплантации</h3>
                 <div class="implant-inner-block">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla senectus eget et est nec integer nunc. Cras ut faucibus malesuada molestie neque pretium sed urna. Pulvinar ut neque, netus laoreet diam venenatis at. Cras pulvinar
                         sed facilisis etiam nisl etiam. Eu tempor lacus, justo ut elementum quam. Euismod viverra pulvinar amet, purus interdum odio sodales nec lectus. Donec nibh dictum sed sed nec. Non tellus odio ultrices egestas ipsum, ut. Fermentum
                         faucibus malesuada etiam integer. Ut ut nulla ac elementum lacus. Sit elementum lacus natoque aliquam, dui. Tellus diam sed vehicula nunc mi arcu ut porttitor ut. A rhoncus ac nisl aliquet imperdiet a, pellentesque. Aliquam sit
-                        sit interdum nulla porta amet justo in. Semper feugiat nunc id risus ut condimentum laoreet diam. Morbi adipiscing arcu id in lacinia consequat neque sodales facilisis. Vulputate tristique ac leo scelerisque. Urna elementum nisi
-                        lacus aliquet sollicitudin eget vitae adipiscing diam. Suscipit egestas feugiat sit quis amet condimentum cursus ullamcorper non. Auctor ridiculus faucibus semper ultrices scelerisque erat enim diam sit. Facilisis consectetur egestas
-                        nisi, diam quis adipiscing egestas vitae morbi. Neque euismod vivamus eget magna ac tincidunt at urna amet. Porttitor nullam eleifend sit quis auctor. Ut vestibulum justo pulvinar maecenas imperdiet fringilla mollis blandit tellus.
-                        Risus massa, aliquam in sed cras gravida volutpat. Elementum velit aliquam id ipsum dignissim turpis. Volutpat, quam vitae sed malesuada volutpat donec scelerisque nunc vulputate. Auctor consectetur suspendisse lectus sem sit nibh.
-                        Est platea sollicitudin purus hac nullam orci amet. Tellus blandit a mi phasellus magna venenatis semper. Vitae a, ipsum eget orci consequat. Nulla nam vitae velit vestibulum. Vestibulum orci phasellus amet dolor nam purus tempor
-                        molestie blandit. Orci, erat pellentesque eget lacus, at. Donec egestas eu dignissim duis vitae dolor. Amet ullamcorper blandit gravida quam mauris. Cras diam magna adipiscing adipiscing dolor dolor nulla vitae. Consequat sollicitudin
-                        velit porta ullamcorper mi eget. Ut pretium elementum sit vitae dis facilisis feugiat adipiscing. Dictum ultrices a auctor et in nulla. Sit elit nec habitasse eget cras sollicitudin quam. Elit aliquet amet egestas ut mi.
-                    </p>
+                        sit interdum nulla porta amet justo in. </p>
+                    <br>
+                    <p>Semper feugiat nunc id risus ut condimentum laoreet diam. Morbi adipiscing arcu id in lacinia consequat neque sodales facilisis. Vulputate tristique ac leo scelerisque. Urna elementum nisi lacus aliquet sollicitudin eget vitae adipiscing
+                        diam. Suscipit egestas feugiat sit quis amet condimentum cursus ullamcorper non. Auctor ridiculus faucibus semper ultrices scelerisque erat enim diam sit. Facilisis consectetur egestas nisi, diam quis adipiscing egestas vitae morbi.
+                        Neque euismod vivamus eget magna ac tincidunt at urna amet. Porttitor nullam eleifend sit quis auctor. Ut vestibulum justo pulvinar maecenas imperdiet fringilla mollis blandit tellus. Risus massa, aliquam in sed cras gravida volutpat.</p>
+                    <br>
+                    <p>Elementum velit aliquam id ipsum dignissim turpis. Volutpat, quam vitae sed malesuada volutpat donec scelerisque nunc vulputate. Auctor consectetur suspendisse lectus sem sit nibh. Est platea sollicitudin purus hac nullam orci amet.
+                        Tellus blandit a mi phasellus magna venenatis semper. Vitae a, ipsum eget orci consequat. Nulla nam vitae velit vestibulum. Vestibulum orci phasellus amet dolor nam purus tempor molestie blandit. Orci, erat pellentesque eget lacus,
+                        at. Donec egestas eu dignissim duis vitae dolor. Amet ullamcorper blandit gravida quam mauris. Cras diam magna adipiscing adipiscing dolor dolor nulla vitae. Consequat sollicitudin velit porta ullamcorper mi eget. Ut pretium elementum
+                        sit vitae dis facilisis feugiat adipiscing. Dictum ultrices a auctor et in nulla. Sit elit nec habitasse eget cras sollicitudin quam. Elit aliquet amet egestas ut mi. </p>
                 </div>
             </div>
         </section>
@@ -160,7 +205,7 @@
             </div>
         </section>
         <section class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12 imlant-color-block">
                 <h3>Этапы имплантации зубов</h3>
                 <div class="implant-inner-block">
                     <p>Имплантация зубов в Москве проводится в хирургическом кабинете с использованием стерильных инструментов и расходных материалов. Врачи клиники «Мир Здоровья» предварительно собирают информацию и делают снимки, исходя из чего, оценивают
@@ -239,16 +284,44 @@
             </div>
         </section>
         <section class="row">
-            <h3>Специалисты клиники</h3>
             <div class="col-sm-12">
-                слайдер
+                <h3>Специалисты клиники</h3>
+
+                <div class="implant-docs js-implant-docs implant-inner-block">
+                    <div class="implant-doc">
+                        <img src="picture/doctor1.png">
+                        <div class="implant-doc-name">Кожевин Александр Петрович</div>
+                        <div class="implant-doc-position">Врач хирург-имплантолог, челюстно-лицевой хирург</div>
+                        <div class="implant-doc-description">Проводит диагностику, стоматологическую хирургию, удаление зубов всех видов сложности, установку всех видов имплантов, планирование протезирования и протезирование на имплантах</div>
+                    </div>
+                    <div class="implant-doc">
+                        <img src="picture/doctor1.png">
+                        <div class="implant-doc-name">Кожевин Александр Петрович</div>
+                        <div class="implant-doc-position">Врач хирург-имплантолог, челюстно-лицевой хирург</div>
+                        <div class="implant-doc-description">Проводит диагностику, стоматологическую хирургию, удаление зубов всех видов сложности, установку всех видов имплантов, планирование протезирования и протезирование на имплантах</div>
+                    </div>
+                    <div class="implant-doc">
+                        <img src="picture/doctor1.png">
+                        <div class="implant-doc-name">Кожевин Александр Петрович</div>
+                        <div class="implant-doc-position">Врач хирург-имплантолог, челюстно-лицевой хирург</div>
+                        <div class="implant-doc-description">Проводит диагностику, стоматологическую хирургию, удаление зубов всех видов сложности, установку всех видов имплантов, планирование протезирования и протезирование на имплантах</div>
+                    </div>
+                    <div class="implant-doc">
+                        <img src="picture/doctor1.png">
+                        <div class="implant-doc-name">Кожевин Александр Петрович</div>
+                        <div class="implant-doc-position">Врач хирург-имплантолог, челюстно-лицевой хирург</div>
+                        <div class="implant-doc-description">Проводит диагностику, стоматологическую хирургию, удаление зубов всех видов сложности, установку всех видов имплантов, планирование протезирования и протезирование на имплантах</div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="row">
-            <h3>Отзывы</h3>
-            <button class="button-default">Оставить отзыв</button>
-            <div class="col-sm-12">
-                слайдер
+            <div class="col-sm-12 imlant-color-block">
+                <h3>Отзывы</h3>
+                <button class="button-default">Оставить отзыв</button>
+                <div class="col-sm-12">
+                    слайдер
+                </div>
             </div>
         </section>
         <section class="row">
