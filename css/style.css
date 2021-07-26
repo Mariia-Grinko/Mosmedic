@@ -53,6 +53,10 @@
         text-align: center;
     }
     
+    .inplant-button-center {
+        margin: 0 auto;
+    }
+    
     .button-default:hover {
         cursor: pointer;
         background: #00779C;
