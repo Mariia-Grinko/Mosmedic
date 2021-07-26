@@ -217,7 +217,13 @@
         width: 240px;
         margin-bottom: 10px;
     }
-    
+
+    /* Стили для slick slider */
+    .implant-wrapper .slick-arrow {
+        width: 28px;
+        height: 28px;
+    }
+
     .implant-wrapper .slick-arrow:before {
         content: '';
         position: absolute;
@@ -227,10 +233,18 @@
         top: 0;
     }
     
+    .implant-wrapper .slick-prev {
+        left: -55px;
+    }
+    
+    .implant-wrapper .slick-next {
+        right: -55px;
+    }
+
     .implant-wrapper .slick-prev:before {
         background: url(../picture/car-left.png) no-repeat 0 0;
     }
-    
+
     .implant-wrapper .slick-next:before {
         background: url(../picture/car-right.png) no-repeat 0 0;
     }
