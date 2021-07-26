@@ -54,7 +54,8 @@
     }
     
     .inplant-button-center {
-        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     
     .button-default:hover {
@@ -207,15 +208,69 @@
         color: #00779C;
     }
     
-    .implant-banner-bottom {
-        margin-left: 8.6%;
-        margin-top: 70px;
-        width: 50%;
+    .implant-icon-testimony-list {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     
-    .implant-banner-bottom form {
-        width: 240px;
-        margin-bottom: 10px;
+    .implant-icon-testimony {
+        display: flex;
+        text-decoration: none;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .icon-one-tooth {
+        background-image: url(../icon/tooth2.svg);
+    }
+    
+    .icon-one-crown {
+        background-image: url(../icon/crown1.svg);
+    }
+    
+    .icon-one-dentures {
+        background-image: url(../icon/dentures1.svg);
+    }
+    
+    .icon-one-dentures-glass {
+        background-image: url(../icon/dentures5.svg);
+    }
+    
+    .implant-icon-benefits {
+        height: 60px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .implant-icon-calendar {
+        background-image: url(../icon/calendar1.svg);
+    }
+    
+    .implant-icon-doctor {
+        background-image: url(../icon/dentist1.svg);
+    }
+    
+    .implant-icon-moneybox {
+        background-image: url(../icon/piggy-bank1.svg);
+    }
+    
+    .implant-icon-diamond {
+        background-image: url(../icon/diamond1.svg);
+    }
+    
+    .implant-icon-security {
+        background-image: url(../icon/shield1.svg);
+    }
+    
+    .implant-icon-assurance {
+        background-image: url(../icon/guarantee1-1.svg);
     }
     
     .implant-wrapper .slick-arrow:before {
@@ -233,4 +288,40 @@
     
     .implant-wrapper .slick-next:before {
         background: url(../picture/car-right.png) no-repeat 0 0;
+    }
+    
+    .implant-inner-block h6 {
+        font-weight: 700;
+        color: #00779C;
+    }
+    
+    .implant-q-a {
+        position: relative;
+        margin-top: 30px;
+    }
+    
+    .implant-q-a p {
+        padding-bottom: 20px;
+    }
+    
+    .implant-q-a:after {
+        content: "";
+        height: 1px;
+        width: 100%;
+        background-color: #D4D4D4;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .implant-banner-bottom {
+        margin-left: 8.6%;
+        margin-top: 70px;
+        width: 50%;
+    }
+    
+    .implant-banner-bottom form {
+        width: 240px;
+        margin-bottom: 10px;
     }
