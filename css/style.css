@@ -58,6 +58,7 @@
     .inplant-button-center {
         display: flex;
         justify-content: center;
+        margin-top: 50px;
     }
     
     .button-default:hover {
@@ -94,7 +95,7 @@
         font-family: "OpenSans";
         font-style: normal;
         font-weight: 600;
-        font-size: 2.625rem;
+        font-size: 2.625em;
         line-height: 135%;
         color: #333333;
     }
@@ -104,7 +105,7 @@
         font-style: normal;
         font-weight: normal;
         margin-bottom: 35px;
-        font-size: 1.125rem;
+        font-size: 1.125em;
         line-height: 150%;
         color: #333333;
     }
@@ -113,7 +114,7 @@
         font-family: "OpenSans";
         font-style: normal;
         font-weight: normal;
-        font-size: 0.75rem;
+        font-size: 0.75em;
         line-height: 150%;
         color: #333333;
     }
@@ -132,7 +133,7 @@
         font-family: "OpenSans";
         font-style: normal;
         font-weight: bold;
-        font-size: 1.75rem;
+        font-size: 1.75em;
         line-height: 38px;
         text-align: center;
         margin-bottom: 50px;
@@ -238,11 +239,11 @@
         font-weight: 600;
         color: #00779C;
         margin: 20px 0;
-        font-size: 0.875rem;
+        font-size: 0.875em;
     }
     
     .implant-stage-description {
-        font-size: 0.875rem;
+        font-size: 0.875em;
     }
     
     .implant-testimony>h6 {
@@ -261,7 +262,6 @@
     }
     
     .implant-icon-testimony-item {
-        height: 130px;
         width: 217px;
         text-align: center;
         margin: 0 auto;
@@ -293,7 +293,7 @@
         font-family: "OpenSans";
         font-style: normal;
         font-weight: normal;
-        font-size: 0.75rem;
+        font-size: 0.75em;
         line-height: 160%;
         color: #4D4D4D;
         height: 210px;
@@ -302,6 +302,24 @@
     .implant-type-price {
         color: #00A5C2;
     }
+    
+    .implant-type {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .implant-type:not(:last-child)::after {
+        content: "";
+        height: 1px;
+        width: 100%;
+        background-color: #D4D4D4;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .implant-type:last-child {}
     
     .icon-one-tooth {
         background-image: url(../icon/tooth2.svg);
@@ -418,6 +436,10 @@
         left: 0;
     }
     
+    .implant-docs {
+        margin-bottom: 80px;
+    }
+    
     .implant-doc {
         margin: 0 15px;
     }
@@ -428,33 +450,66 @@
     
     .implant-doc-name {
         font-weight: 700;
-        font-size: 1.125rem;
+        font-size: 1.125em;
         line-height: 150%;
         text-align: center;
     }
     
     .implant-doc-position {
         font-weight: 600;
-        font-size: 0.75rem;
+        font-size: 0.75em;
         text-align: center;
         color: #00779C;
         margin: 10px auto;
+        height: 30px;
+    }
+    
+    .implant-rating-title {
+        font-size: 0.63em;
+        font-weight: 600;
+        line-height: 150%;
+    }
+    
+    .implant-doc-description {
+        font-weight: 400;
+        font-size: 0.875em;
+        line-height: 150%;
+        height: 300px;
+    }
+    
+    .implant-rating-review {
+        white-space: nowrap;
+        font-size: 0.63em;
+        font-weight: 600;
+        line-height: 150%;
+    }
+    
+    .implant-rating-grade-number {
+        font-weight: 700;
+        font-size: 1.6em;
+    }
+    
+    .implant-rating-number {
+        font-weight: 700;
+        color: #00779C;
     }
     
     .implant-rating {
         display: flex;
         justify-content: space-between;
     }
-
+    
     .implant-rating-wrapper {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     
     .implant-rating-stars {
         background-position: right;
         background-repeat: no-repeat;
         width: 80px;
+        height: 16px;
         margin-left: 10px;
     }
     
@@ -478,20 +533,24 @@
         background-image: url(../icon/small-rating-5.png);
     }
     
-    .implant-rating-grade span {
+    .implant-rating-grade-number {
         color: #00A5C2;
         font-weight: 700;
     }
-
+    
     .implant-review {
         padding: 0 10px;
     }
-
+    
     .implant-review-name {
         font-weight: 700;
-        font-size: 1.125rem;
+        font-size: 1.125em;
         line-height: 150%;
         margin: 0 auto 20px auto;
+    }
+    
+    .implant-review-description {
+        height: 300px;
     }
     
     .row .implant-banner {
@@ -522,8 +581,7 @@
             flex-direction: column;
         }
         .implant-stage:nth-of-type(even) {
-            margin-left: 0px;
-            margin-right: 0px;
+            margin: 20px 0;
         }
         .implant-banner {
             background-position: right;
