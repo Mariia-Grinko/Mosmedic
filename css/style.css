@@ -158,6 +158,7 @@
         flex-wrap: nowrap;
         justify-content: space-between;
         padding-left: 8.5%;
+        padding-right: 8.5%;
         position: relative;
         padding-top: 24px;
         padding-bottom: 24px;
@@ -186,9 +187,23 @@
     
     .implant-price-element-parent {
         flex-direction: column;
-        padding-left: 0;
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 0;
+    }
+
+    .implant-price-element > ul > .implant-price-element {
+        padding-left: calc(8.5% + 15px);
+        position: relative;
+    }
+
+    .implant-price-element > ul > .implant-price-element:before {
+        content: '';
+        width: 5px;
+        height: 5px;
+        background: #4D4D4D;
+        border-radius: 50%;
+        position: absolute;
+        left: 8.5%;
+        top: 33px;
     }
     
     .implant-price-element>ul>.implant-price-element>.implant-price-name {
@@ -198,6 +213,7 @@
     
     .implant-price-element-parent>.implant-price-name {
         padding-left: 8.5%;
+        padding-right: 8.5%;
         padding-top: 24px;
         padding-bottom: 24px;
         font-weight: bold;
@@ -206,6 +222,7 @@
     
     .implant-price-price {
         color: #00779C;
+        white-space: nowrap;
     }
     
     .implant-stage-number {
