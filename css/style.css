@@ -443,12 +443,19 @@
     
     .implant-rating {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+    }
+
+    .implant-rating-wrapper {
+        display: flex;
+        justify-content: space-between;
     }
     
     .implant-rating-stars {
         background-position: right;
         background-repeat: no-repeat;
+        width: 80px;
+        margin-left: 10px;
     }
     
     .implant-rating-stars-1 {
@@ -475,7 +482,11 @@
         color: #00A5C2;
         font-weight: 700;
     }
-    
+
+    .implant-review {
+        padding: 0 10px;
+    }
+
     .implant-review-name {
         font-weight: 700;
         font-size: 1.125rem;
