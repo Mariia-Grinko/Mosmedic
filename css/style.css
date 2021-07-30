@@ -323,9 +323,10 @@
     .implant-type {
         margin-top: 30px;
         padding-bottom: 30px;
+        position: relative;
     }
     
-    .implant-type:not(:first-child)::before {
+    .implant-type:not(:last-child)::after {
         content: "";
         height: 1px;
         width: 100%;
@@ -595,7 +596,7 @@
     
     @media (max-width: 960px) {}
     
-    @media (max-width: 750px) {
+    @media (max-width: 767px) {
         .implant-stages {
             flex-direction: column;
         }
@@ -604,6 +605,19 @@
         }
         .implant-icon-testimony-list {
             flex-direction: column;
+        }
+        .implant-type {
+            padding-bottom: 0;
+        }
+        .implant-type-description {
+            height: auto;
+        }
+        .implant-type .implant-type-photo,
+        .implant-type .implant-type-name,
+        .implant-type .implant-type-description,
+        .implant-type .implant-type-price {
+            padding-bottom: 20px;
+            text-align: center;
         }
     }
     
