@@ -89,7 +89,7 @@
         background-position: center center;
         height: 500px;
     }
-
+    
     .implant-banner-top {
         background-image: url('../picture/banner-top.png');
         margin-bottom: 80px;
@@ -553,7 +553,7 @@
         color: #00A5C2;
         font-weight: 700;
     }
-
+    
     .implant-reviews-wrapper {
         margin-bottom: 70px;
     }
@@ -596,7 +596,15 @@
         margin-bottom: 10px;
     }
     
-    @media (max-width: 960px) {}
+    @media (max-width: 960px) {
+        .implant-banner-bottom-content {
+            margin-top: 0px;
+        }
+        .implant-banner h2 {
+            font-weight: 700;
+            font-size: 2.325em;
+        }
+    }
     
     @media (max-width: 767px) {
         .implant-stages {
@@ -621,9 +629,28 @@
             padding-bottom: 20px;
             text-align: center;
         }
+        .implant-banner-bottom-content {
+            margin-top: 0px;
+        }
     }
     
     @media (max-width: 450px) {
+        .implant-banner-bottom-content {
+            width: 100%;
+        }
+        .implant-banner h2 {
+            font-weight: 700;
+            font-size: 1.625em;
+        }
+        .implant-banner-bottom-content {
+            margin-left: 3.6%;
+        }
+        .implant-reviews-wrapper {
+            margin-bottom: 0px;
+        }
+        .implant-banner-bottom-content {
+            margin-top: 0px;
+        }
         .implant-banner-bottom {
             background-image: none;
             background-color: #DEE4F4;
@@ -637,5 +664,8 @@
         }
         .inplant-video-info {
             margin-bottom: 20px;
+        }
+        .implant-banner-bottom-content {
+            margin-top: 0px;
         }
     }
