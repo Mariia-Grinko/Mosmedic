@@ -571,6 +571,8 @@
     
     .implant-review-description {
         height: 300px;
+        font-weight: 400;
+        font-size: 0.875em;
     }
     
     .button-wide {
@@ -594,13 +596,17 @@
         margin-bottom: 10px;
     }
     
-    @media (max-width: 960px) {}
+    @media (max-width: 960px) {
+        .implant-banner-bottom-content {
+            margin-top: 0px;
+        }
+        .implant-banner h2 {
+            font-weight: 700;
+            font-size: 2.325em;
+        }
+    }
     
     @media (max-width: 767px) {
-        /*.implant-wrapper {*/
-        /*    margin-left: -15px;*/
-        /*    margin-right: -15px;*/
-        /*}*/
         .implant-banner-top-content {
             margin-left: calc(8.5% - 15px);
         }
@@ -651,9 +657,28 @@
             width: calc(100% + 30px);
             left: -15px;
         }
+        .implant-banner-bottom-content {
+            margin-top: 0px;
+        }
     }
     
     @media (max-width: 450px) {
+        .implant-banner-bottom-content {
+            width: 100%;
+        }
+        .implant-banner h2 {
+            font-weight: 700;
+            font-size: 1.625em;
+        }
+        .implant-banner-bottom-content {
+            margin-left: 3.6%;
+        }
+        .implant-reviews-wrapper {
+            margin-bottom: 0px;
+        }
+        .implant-banner-bottom-content {
+            margin-top: 0px;
+        }
         .implant-banner-bottom {
             background-image: none;
             background-color: #DEE4F4;
@@ -661,5 +686,14 @@
         .implant-banner-top {
             background-image: none;
             background-color: #DEE4F4;
+        }
+        .implant-icon-testimony-item {
+            margin: 0 auto 30px auto;
+        }
+        .inplant-video-info {
+            margin-bottom: 20px;
+        }
+        .implant-banner-bottom-content {
+            margin-top: 0px;
         }
     }
