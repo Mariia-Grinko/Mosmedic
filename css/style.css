@@ -567,6 +567,8 @@
     
     .implant-review-description {
         height: 300px;
+        font-weight: 400;
+        font-size: 0.875em;
     }
     
     .row .implant-banner {
@@ -620,5 +622,11 @@
         .implant-banner-top {
             background-image: none;
             background-color: #DEE4F4;
+        }
+        .implant-icon-testimony-item {
+            margin: 0 auto 30px auto;
+        }
+        .inplant-video-info {
+            margin-bottom: 20px;
         }
     }
