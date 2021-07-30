@@ -84,7 +84,8 @@
         color: #00779C;
     }
     
-    .implant-banner {
+    .implant-banner-top {
+        background-image: url('picture/banner-top.png');
         background-repeat: no-repeat;
         background-position: center center;
         height: 500px;
@@ -119,13 +120,13 @@
         color: #333333;
     }
     
-    .implant-banner-top {
+    .implant-banner-top-content {
         margin-left: 8.6%;
         margin-top: 90px;
         width: 50%;
     }
     
-    .implant-banner-top p {
+    .implant-banner-top-content p {
         margin-top: 30px;
     }
     
@@ -189,13 +190,13 @@
         flex-direction: column;
         padding: 0;
     }
-
-    .implant-price-element > ul > .implant-price-element {
+    
+    .implant-price-element>ul>.implant-price-element {
         padding-left: calc(8.5% + 15px);
         position: relative;
     }
-
-    .implant-price-element > ul > .implant-price-element:before {
+    
+    .implant-price-element>ul>.implant-price-element:before {
         content: '';
         width: 5px;
         height: 5px;
@@ -325,7 +326,7 @@
         padding-bottom: 30px;
     }
     
-    .implant-type:not(:last-child)::after {
+    .implant-type:not(:first-child)::before {
         content: "";
         height: 1px;
         width: 100%;
@@ -335,8 +336,6 @@
         bottom: 0;
         left: 0;
     }
-    
-    .implant-type:last-child {}
     
     .icon-one-tooth {
         background-image: url(../icon/tooth2.svg);
@@ -581,12 +580,20 @@
     }
     
     .implant-banner-bottom {
+        background-image: url('picture/.implant-banner-bottom.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 500px;
+        margin-bottom: 80px;
+    }
+    
+    .implant-banner-bottom-content {
         margin-left: 8.6%;
         margin-top: 70px;
         width: 50%;
     }
     
-    .implant-banner-bottom form {
+    .implant-banner-bottom-content form {
         width: 240px;
         margin-bottom: 10px;
     }
@@ -600,10 +607,18 @@
         .implant-stage:nth-of-type(even) {
             margin: 20px 0;
         }
-        .implant-banner {
-            background-position: right;
-        }
         .implant-icon-testimony-list {
             flex-direction: column;
+        }
+    }
+    
+    @media (max-width: 450px) {
+        .implant-banner-bottom {
+            background-image: none;
+            background-color: #DEE4F4;
+        }
+        .implant-banner-top {
+            background-image: none;
+            background-color: #DEE4F4;
         }
     }
