@@ -596,6 +596,24 @@
         margin-bottom: 10px;
     }
     
+    .iplant-example-lable {
+        display: flex;
+        background: #333333;
+        border-radius: 20px;
+        color: #00C9EA;
+        justify-content: space-between;
+    }
+    
+    .iplant-example-lable-before {
+        color: #00C9EA;
+        width: 40px;
+    }
+    
+    .iplant-example-lable-after {
+        color: #00C9EA;
+        width: 60px;
+    }
+    
     @media (max-width: 960px) {
         .implant-banner-bottom-content {
             margin-top: 0px;
