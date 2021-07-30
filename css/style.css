@@ -37,7 +37,7 @@
         box-sizing: border-box;
         font-size: 16px;
         color: #4D4D4D;
-        font-family: "OpenSans";
+        font-family: "OpenSans", sans-serif;
     }
     
     .h3 {
@@ -84,16 +84,18 @@
         color: #00779C;
     }
     
-    .implant-banner-top {
-        background-image: url('picture/banner-top.png');
+    .implant-banner {
         background-repeat: no-repeat;
         background-position: center center;
         height: 500px;
+    }
+
+    .implant-banner-top {
+        background-image: url('../picture/banner-top.png');
         margin-bottom: 80px;
     }
     
     .implant-banner h2 {
-        font-family: "OpenSans";
         font-style: normal;
         font-weight: 600;
         font-size: 2.625em;
@@ -102,7 +104,6 @@
     }
     
     .implant-banner p {
-        font-family: "OpenSans";
         font-style: normal;
         font-weight: normal;
         margin-bottom: 35px;
@@ -112,7 +113,6 @@
     }
     
     .implant-banner span {
-        font-family: "OpenSans";
         font-style: normal;
         font-weight: normal;
         font-size: 0.75em;
@@ -131,7 +131,6 @@
     }
     
     .implant-wrapper h3 {
-        font-family: "OpenSans";
         font-style: normal;
         font-weight: bold;
         font-size: 1.75em;
@@ -324,9 +323,10 @@
     .implant-type {
         margin-top: 30px;
         padding-bottom: 30px;
+        position: relative;
     }
     
-    .implant-type:not(:first-child)::before {
+    .implant-type:not(:last-child)::after {
         content: "";
         height: 1px;
         width: 100%;
@@ -553,6 +553,10 @@
         color: #00A5C2;
         font-weight: 700;
     }
+
+    .implant-reviews-wrapper {
+        margin-bottom: 70px;
+    }
     
     .implant-review {
         padding: 0 10px;
@@ -569,10 +573,6 @@
         height: 300px;
     }
     
-    .row .implant-banner {
-        margin-top: 70px;
-    }
-    
     .button-wide {
         width: 100%;
         padding-left: 0;
@@ -580,11 +580,7 @@
     }
     
     .implant-banner-bottom {
-        background-image: url('picture/.implant-banner-bottom.png');
-        background-repeat: no-repeat;
-        background-position: center center;
-        height: 500px;
-        margin-bottom: 80px;
+        background-image: url('../picture/bottom-banner.png');
     }
     
     .implant-banner-bottom-content {
@@ -600,7 +596,7 @@
     
     @media (max-width: 960px) {}
     
-    @media (max-width: 750px) {
+    @media (max-width: 767px) {
         .implant-stages {
             flex-direction: column;
         }
@@ -609,6 +605,19 @@
         }
         .implant-icon-testimony-list {
             flex-direction: column;
+        }
+        .implant-type {
+            padding-bottom: 0;
+        }
+        .implant-type-description {
+            height: auto;
+        }
+        .implant-type .implant-type-photo,
+        .implant-type .implant-type-name,
+        .implant-type .implant-type-description,
+        .implant-type .implant-type-price {
+            padding-bottom: 20px;
+            text-align: center;
         }
     }
     
