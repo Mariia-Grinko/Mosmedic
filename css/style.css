@@ -89,7 +89,7 @@
         background-position: center center;
         height: 500px;
     }
-
+    
     .implant-banner-top {
         background-image: url('../picture/banner-top.png');
         margin-bottom: 80px;
@@ -553,7 +553,7 @@
         color: #00A5C2;
         font-weight: 700;
     }
-
+    
     .implant-reviews-wrapper {
         margin-bottom: 70px;
     }
@@ -629,7 +629,7 @@
             margin-left: calc(8.5% - 15px);
         }
         .implant-inner-block {
-            padding-right:calc(8.5% - 15px);
+            padding-right: calc(8.5% - 15px);
             padding-left: calc(8.5% - 15px);
         }
         .implant-inner-block.imlant-color-block {
@@ -641,7 +641,7 @@
             margin-left: -15px;
             margin-right: -15px;
         }
-        .implant-price > li > .implant-price {
+        .implant-price>li>.implant-price {
             margin-left: -15px;
             margin-right: 0;
         }
@@ -681,8 +681,15 @@
     }
     
     @media (max-width: 450px) {
+        .implant-banner-top-content {
+            width: 100%;
+            margin-top: 30px;
+            margin-left: calc(8.5% - 30px);
+        }
         .implant-banner-bottom-content {
             width: 100%;
+            margin-top: 30px;
+            margin-left: calc(8.5% - 30px);
         }
         .implant-banner h2 {
             font-weight: 700;
