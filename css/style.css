@@ -276,6 +276,7 @@
         justify-content: center;
         width: 100%;
         padding-left: 0px;
+        padding-bottom: 50px;
     }
     
     .implant-icon-testimony-item {
@@ -304,6 +305,10 @@
         width: 50px;
         height: 50px;
         padding-right: 70px;
+    }
+    
+    .implant-type-photo .img-responsive {
+        margin: 0 auto;
     }
     
     .implant-type-description {
@@ -408,7 +413,60 @@
     .implant-wrapper .slick-next:before {
         background: url(../picture/car-right.png) no-repeat 0 0;
     }
+    
+    .implant-wrapper .slick-dots li {
+        width: 16px;
+        margin: 0;
+    }
+    
+    .implant-wrapper .slick-dots li.slick-active {
+        width: 26px;
+    }
+    
+    .implant-wrapper .slick-dots button {
+        width: 16px;
+        height: 16px;
+        padding: 5px;
+    }
+    
+    .implant-wrapper .slick-dots button:before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        background-color: #4D4D4D;
+        border-radius: 3px;
+        position: initial;
+        display: block;
+    }
+    
+    .implant-wrapper .slick-dots li.slick-active button {
+        width: 26px;
+    }
+    
+    .implant-wrapper .slick-dots li.slick-active button:before {
+        width: 16px;
+        background-color: #00C9EA;
+    }
     /* */
+    
+    .implant-example-of-work {
+        position: relative;
+    }
+    
+    .implant-example-of-work:after {
+        content: 'до';
+        padding: 0px 10px;
+        background: #333333;
+        border-radius: 20px;
+        color: #00C9EA;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    
+    .implant-example-of-work:nth-of-type(2n):after {
+        content: 'после';
+    }
     
     .implant-benefits {
         height: 190px;
@@ -423,8 +481,12 @@
     }
     
     .implant-icon-title {
-        font-weight: 600;
+        font-weight: 700;
         text-align: center;
+    }
+    
+    .implant-icon-title-description {
+        font-weight: 400;
     }
     
     .implant-inner-block h6 {
@@ -595,34 +657,26 @@
         width: 240px;
         margin-bottom: 10px;
     }
-
-    .implant-example-of-work {
-        position: relative;
-    }
-
-    .implant-example-of-work:after {
-        content: 'до';
-        padding: 0px 10px;
-        height: 25px;
-        background: #333333;
-        border-radius: 20px;
-        color: #00C9EA;
-        position: absolute;
-        bottom: 20px;
-        left: 20px;
-    }
-
-    .implant-example-of-work:nth-of-type(2n):after {
-        content: 'после';
-    }
     
     @media (max-width: 960px) {
-        .implant-banner-bottom-content {
-            margin-top: 0px;
+        .implant-banner-top {
+            margin-bottom: 30px;
         }
         .implant-banner h2 {
             font-weight: 700;
             font-size: 2.325em;
+        }
+        .implant-doc-name {
+            height: 90px;
+        }
+        .implant-review-name {
+            height: 60px;
+        }
+        .implant-type-description {
+            height: auto;
+        }
+        .implant-banner-bottom-content {
+            margin-top: 0px;
         }
     }
     
@@ -683,36 +737,57 @@
     }
     
     @media (max-width: 450px) {
+        .implant-banner {
+            height: 450px;
+        }
+        .implant-banner-top {
+            background-image: none;
+            background-color: #DEE4F4;
+            margin-bottom: 10px;
+        }
         .implant-banner-top-content {
             width: 100%;
-            margin-top: 30px;
-            margin-left: calc(8.5% - 30px);
-        }
-        .implant-banner-bottom-content {
-            width: 100%;
-            margin-top: 30px;
-            margin-left: calc(8.5% - 30px);
+            margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
         }
         .implant-banner h2 {
             font-weight: 700;
             font-size: 1.625em;
         }
-        .implant-banner-bottom-content {
-            margin-left: 3.6%;
+        .implant-wrapper h3 {
+            margin-bottom: 20px;
+        }
+        .implant-example-of-work:after {
+            font-size: 0.75em;
+            height: auto;
+            bottom: 10px;
+            left: 10px;
+        }
+        .implant-benefits {
+            margin-bottom: 10px;
+        }
+        .implant-docs {
+            margin-bottom: auto;
+        }
+        .implant-doc-photo {
+            margin: 20px auto 20px auto;
+        }
+        .implant-doc-description {
+            height: auto;
         }
         .implant-reviews-wrapper {
             margin-bottom: 0px;
         }
-        .implant-banner-bottom-content {
-            margin-top: 0px;
+        .implant-review-description {
+            height: auto;
         }
-        .implant-banner-bottom {
-            background-image: none;
-            background-color: #DEE4F4;
+        .implant-rating {
+            margin-top: 30px;
         }
-        .implant-banner-top {
-            background-image: none;
-            background-color: #DEE4F4;
+        .implant-icon-testimony-list {
+            padding-bottom: 0;
         }
         .implant-icon-testimony-item {
             margin: 0 auto 30px auto;
@@ -720,7 +795,24 @@
         .inplant-video-info {
             margin-bottom: 20px;
         }
+        .inplant-button-center {
+            margin-top: auto;
+        }
+        .implant-banner-bottom {
+            background-image: none;
+            background-color: #DEE4F4;
+            margin-top: 20px;
+        }
         .implant-banner-bottom-content {
-            margin-top: 0px;
+            width: 100%;
+            margin-top: 10px;
+            margin-left: calc(8.5% - 30px);
+            text-align: center;
+        }
+        .implant-banner-bottom-content form {
+            width: 240px;
+            margin-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
